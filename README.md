@@ -1,2 +1,3 @@
-# Freaky-Fashion---with-Boothstrap
-Project
+# Bootstrap Project
+
+Lorem ipsum dolor

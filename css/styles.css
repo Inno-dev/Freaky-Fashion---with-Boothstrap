@@ -1,0 +1,287 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    padding-left: 10px; 
+    padding-bottom: 40px;
+    padding-right: 10px; 
+    background-image: url(../images/bkgd.jpg);
+}
+
+/* Header Section*/
+
+.siteHeader img {
+    width: 100%;
+    height: 80px;
+}
+
+.search-icon {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+    font-size: 10px;
+    padding-left: 5px;
+    margin-top: 10px;
+    background-color: #31326F;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 1.6px 1.6px 1.6px greenyellow;
+}
+ 
+input {
+    margin-left: 5px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #31326F;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
+.nav {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.siteHeader .nav a {
+    font-size: 10px;
+    padding-top: 10px;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    display: block;
+    color:#31326F;
+}
+
+::placeholder {
+    color: white;
+}
+
+.nav a:hover {
+    color: indianred;
+}
+
+
+/* Hero Section*/
+
+.hero {
+    border: none;
+    
+}
+
+.hero img {
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.heroText {
+    padding: 10px 10px;
+    
+}
+
+.heroText h2 {
+    padding-right: 20px;
+    font-size: 15px;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .heroText  p {
+    font-size: 10px;
+    line-height: 12px;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding-right: 20px;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.container {
+    text-align: center;
+}
+
+
+.btn:hover {
+    background: #3cfce6;
+    background-image: -webkit-linear-gradient(top, #3cfce6, #34d9c3);
+    background-image: -moz-linear-gradient(top, #3cfce6, #34d9c3);
+    background-image: -ms-linear-gradient(top, #3cfce6, #34d9c3);
+    background-image: -o-linear-gradient(top, #3cfce6, #34d9c3);
+    background-image: linear-gradient(to bottom, #3cfce6, #34d9c3);
+    text-decoration: none;
+  }
+
+
+/* Spot Section*/
+
+.spot {
+    margin-top: 15px;
+}
+
+.spot img {
+    height: 150px;
+    width: 100%;
+}
+
+.spot p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 10px;
+    color: blue;
+}
+
+.item1 {
+    background-color: #CEE5D0;
+    padding-top: 10px;
+
+}
+
+.item2 {
+    background-color: #CEE5D0;
+    padding-top: 10px;
+ 
+}
+
+.item3 {
+    background-color: #CEE5D0;
+    padding-top: 10px;
+    
+}
+
+.spot .row {
+    justify-content: space-between;
+}
+
+
+
+/* Popular Products Section */
+
+h4 {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+   
+}
+
+.products img {
+    width: 100%;
+    height: 200px;
+    padding-bottom: 10px;
+}
+
+.productInfo {
+    font-size: 8px;
+    padding-bottom: 20px;
+  
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+ 
+/*Links Section */
+.check a {
+    font-size: 10px;
+    padding-top: 10px;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    display: block;
+    color:#31326F;
+    line-height: 40px;
+}
+
+
+a:hover {
+    color:red;
+}
+
+.fas {
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.bi {
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+
+/* Items section*/
+
+h5 {
+    font-size: 10px;
+    margin-top: 0;
+    margin-bottom: 3px;
+    font: bold;
+    font-weight: bold;
+}
+
+.list-group a {
+    font-size: 10PX;
+    border: none;
+    line-height: 10px;
+    padding-left: 0;
+    color: #31326F;
+}
+
+.list-group a:hover {
+    color: red;
+}
+
+
+
+/* Copywrite Section*/
+.copy {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 10px;
+}
+
+
+
+/*Breakpoint at >=576*/
+
+/* Header Section*/
+@media  (min-width:576px) {
+
+    .search-icon {
+        height: 20px;
+        margin-left: 10px;
+        width: 140px;
+        height: 14px;
+    }
+
+    input {
+        height: 12px;
+    }
+
+}
+
+
+/* Hero section*/
+
+@media  (min-width:576px) {
+
+    .heroText {
+        padding-top: 20px;
+        
+    }
+    .hero img {
+        width: 100%;
+      
+    }
+    .container {
+        text-align: left;
+        padding-left: 10px;
+    }
+    
+}
+
+
+
+
